@@ -29,7 +29,7 @@ set $menu exec $term --class=launcher -e bash -c 'compgen -c | grep -v fzf | sor
 
 # Start programs
 exec mako
-
+exec spotifyd --no-daemon
 
 
 # Windows config
@@ -41,7 +41,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/.config/sway/wallpapers/wallpaper5.jpg fill
+output * bg ~/.config/sway/wallpapers/wallpaper1.png fill
 #
 # Example configuration:
 #
@@ -233,7 +233,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 # Tema de cores
 
 # class                 border  bground text    indicator child_border
-client.focused          #E0E0E0 #E0E0E0 #000000 #212121   #212121 
+client.focused          #E0E0E0 #E0E0E0 #000000 #E0E0E0   #E0E0E0 
 client.focused_inactive #212121 #212121 #FFFFFF #212121   #212121 
 client.unfocused        #212121 #212121 #FFFFFF #212121   #212121 
 
