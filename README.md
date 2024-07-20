@@ -7,7 +7,7 @@
 
 ## dependencies
 
-- terminal font: [SFMono Nerd Font](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized), just drop it into ".fonts"
+- terminal font: FiraMono Nerd Font
 - notificator deamon: [Mako Notifier](https://github.com/emersion/mako)
-- print screen: [flameshot](https://flameshot.org/docs/installation/installation-linux/)
+- print screen: grimshot
 - program search: [fzf](https://github.com/junegunn/fzf)
