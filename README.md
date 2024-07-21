@@ -7,6 +7,9 @@
 
 ## Desktop with nvidia GPU:
 
+![2024-07-21T14:47:09,125277955-03:00](https://github.com/user-attachments/assets/ca8e7263-d2d5-4d2d-ac22-abfbdcdc6581)
+![2024-07-21T14:47:15,507519298-03:00](https://github.com/user-attachments/assets/d1e992d9-410e-4b50-9b93-a616c27303d0)
+![2024-07-21T14:47:21,652833667-03:00](https://github.com/user-attachments/assets/a4c3ad4b-ae3e-419c-a23e-e7d76719cdeb)
 
 
 ## dependencies
