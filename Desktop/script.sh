@@ -54,4 +54,8 @@ sudo apt update
 
 sudo apt install fastfetch
 
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.obsproject.Studio
+flatpak install flathub com.valvesoftware.Steam
+
 echo \n\n ** SCRIPT COMPLETED INSTALLATION * \n\n
