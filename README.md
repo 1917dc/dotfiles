@@ -12,9 +12,4 @@
 ![2024-07-21T14:47:21,652833667-03:00](https://github.com/user-attachments/assets/a4c3ad4b-ae3e-419c-a23e-e7d76719cdeb)
 
 
-## dependencies
-
-- terminal font: FiraMono Nerd Font
-- notificator deamon: [Mako Notifier](https://github.com/emersion/mako)
-- print screen: grimshot
-- program search: [fzf](https://github.com/junegunn/fzf)
+## all dependencies can be found on installation script
