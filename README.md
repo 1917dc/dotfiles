@@ -1,9 +1,13 @@
 # dotfiles
 ## preview
 
-![2024-07-09_22-06](https://github.com/1917dc/dotfiles/assets/142899763/91c4b8f5-04d2-4742-a6b7-268d640dc043)
-![2024-07-09_22-08](https://github.com/1917dc/dotfiles/assets/142899763/94912fa9-9030-402b-b89e-1d99de5c437b)
-![2024-07-09_22-09](https://github.com/1917dc/dotfiles/assets/142899763/2856bdae-1564-4fd0-9677-1058c39a0a53)
+## Lenovo Thinkpad T490:
+![2024-07-21T14:41:48,483266061-03:00](https://github.com/user-attachments/assets/7b144b50-c581-40a0-89ff-83d5a92dc0c7)
+![2024-07-21T14:32:52,546365815-03:00](https://github.com/user-attachments/assets/7fa956b7-9507-4d83-9ad1-c5f4df7bedcd)
+
+## Desktop with nvidia GPU:
+
+
 
 ## dependencies
 
