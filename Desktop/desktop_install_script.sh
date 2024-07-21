@@ -4,6 +4,7 @@ sudo apt install git sway swaybg mako-notifier fzf pulseaudio wl-clipboard grim 
 sudo apt install build-essential
 sudo apt install git
 sudo apt install python3-pip
+sudo apt install gcc clang ninja-build
 
 pip3 install --user meson==0.55.3
 export PATH=$HOME/.local/bin:$PATH

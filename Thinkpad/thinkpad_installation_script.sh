@@ -5,6 +5,7 @@ sudo apt install sway swaybg mako-notifier pulseaudio pavucontrol waybar fonts-f
 sudo apt install build-essential
 sudo apt install git
 sudo apt install python3-pip
+sudo apt install gcc clang ninja-build
 
 pip3 install --user meson==0.55.3pip3 install --user meson==0.55.3
 
