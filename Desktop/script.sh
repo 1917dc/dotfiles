@@ -43,10 +43,14 @@ echo cloning my dotfiles to respective folders.
 \n
 
 cd
+mv -r ~/dotfiles/Desktop/config ~/dotfiles/Desktop/.config 
 cp -r ~/dotfiles/Desktop/.config ~/
 
+mv ~/dotfiles/Desktop/tmux.conf ~/dotfiles/Desktop/.tmux.conf 
 cd && cp ~/dotfiles/Desktop/.tmux.conf ~/
+mv ~/dotfiles/Desktop/zshrc ~/dotfiles/Desktop/.zshrc 
 cd && cp ~/dotfiles/Desktop/.zshrc ~/
+mv ~/dotfiles/Desktop/fonts ~/dotfiles/Desktop/.fonts
 cd && cp ~/dotfiles/Desktop/.fonts ~/
 
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
