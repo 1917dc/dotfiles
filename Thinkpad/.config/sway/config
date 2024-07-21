@@ -25,7 +25,7 @@ set $term kitty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 # Application launcher with fzf
-set $menu exec $term --class=launcher -e bash -c 'compgen -c | grep -v fzf | sort -u | fzf --layout=reverse | xargs -r swaymsg -t command exec'
+set $menu wofi --show drun --allow-images
 
 # Start programs
 exec mako
