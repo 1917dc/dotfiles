@@ -1,21 +1,46 @@
 #!/bin/bash
-echo ** SCRIPT FOR MY DESKTOP DOTFILES ** 
-echo Installing dependencies.
-
 sudo apt install git sway swaybg mako-notifier fzf pulseaudio wl-clipboard grim grimshot slurp jq pavucontrol waybar fonts-font-awesome kitty tmux 
 
-echo Dependencies installed.
+sudo apt install build-essential
+sudo apt install git
+sudo apt install python3-pip
 
-echo Now installing node, zsh, oh my zsh.
+pip3 install --user meson==0.55.3
+export PATH=$HOME/.local/bin:$PATH
 
-echo installing zsh
-sudo apt install zsh
-chsh -s $(which zsh)
+sudo apt install wayland-protocols \
+libwayland-dev \
+libegl1-mesa-dev \
+libgles2-mesa-dev \
+libdrm-dev \
+libgbm-dev \
+libinput-dev \
+libxkbcommon-dev \
+libgudev-1.0-dev \
+libpixman-1-dev \
+libsystemd-dev \
+cmake \
+libpng-dev \
+libavutil-dev \
+libavcodec-dev \
+libavformat-dev \
+ninja-build \
+meson
 
-echo now installing oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install libxcb-composite0-dev \
+        libxcb-icccm4-dev \
+        libxcb-image0-dev \
+        libxcb-render0-dev \
+        libxcb-xfixes0-dev \
+        libxkbcommon-dev \
+        libxcb-xinput-dev \
+        libx11-xcb-dev
 
-echo installing neovim for nvchad
+sudo apt install libjson-c-dev \
+libpango1.0-dev \
+libcairo2-dev \
+libgdk-pixbuf2.0-dev \
+scdoc
 
 cd
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
@@ -26,21 +51,14 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 
 sudo apt install curl
 
-\n
-echo installing nvm for node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-\n
-echo installing node recent version
 nvm install node
-\n
 
-\n
 echo cloning my dotfiles to respective folders.
-\n
 
 cd
 mv -r ~/dotfiles/Desktop/config ~/dotfiles/Desktop/.config 
@@ -57,9 +75,3 @@ sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt update
 
 sudo apt install fastfetch
-
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.obsproject.Studio
-flatpak install flathub com.valvesoftware.Steam
-
-echo \n\n ** SCRIPT COMPLETED INSTALLATION * \n\n
