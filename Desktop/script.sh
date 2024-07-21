@@ -41,18 +41,12 @@ nvm install node
 echo cloning my dotfiles to respective folders.
 \n
 
-cd && cd dotfiles/Desktop/
+cd
+cp -r ~/dotfiles/Desktop/.config ~/
 
-cp -r kitty ~/.config/
-cp -r mako ~/.config/
-cp -r nvim ~/.config/
-cp -r sway ~/.config/
-cp -r waybar ~/.config/
-cp -r fastfetch ~/.config/
-
-cd && cp .tmux.conf ~/
-cd && cp .zshrc ~/
-cd && cp .fonts ~/
+cd && cp ~/dotfiles/Desktop/.tmux.conf ~/
+cd && cp ~/dotfiles/Desktop/.zshrc ~/
+cd && cp ~/dotfiles/Desktop/.fonts ~/
 
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt update
