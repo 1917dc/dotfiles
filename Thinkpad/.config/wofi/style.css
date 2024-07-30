@@ -1,14 +1,15 @@
 window {
-  font-family: "FiraMono Nerd Font", "Font Awesome 5 Free";
+  font-family: "Arimo Nerd Font", "Font Awesome 5 Free";
+  font-size: 12px;
   margin: 0px;
-  background-color: #212121;
+  background-color: #000000;
 }
 
 #input {
   margin: 5px;
   border: none;
-  color: #f8f8f2;
-  background-color: #212121;
+  color: #EEEEEE;
+  background-color: #000000;
 }
 
 #inner-box {
@@ -31,7 +32,7 @@ window {
 #text {
   margin: 5px;
   border: none;
-  color: #E0E0E0;
+  color: #EEEEEE;
 }
 
 #entry {
@@ -48,5 +49,5 @@ window {
 }
 
 #text:selected {
-  color: #212121;
+  color: #000000;
 }

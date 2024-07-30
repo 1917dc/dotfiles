@@ -1,11 +1,13 @@
+exec_always --no-startup-id mako
 # Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
 
-font pango: SFMono Nerd Font 8 
-
+font pango: Arimo Nerd Font 8 
+gaps inner 10
+gaps outer 5
 
 # Hide cursor
 seat seat0 hide_cursor 5000
@@ -41,7 +43,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/.config/sway/wallpapers/wallpaper1.png fill
+output * bg ~/.config/sway/wallpapers/darksouls2.png fill
 #
 # Example configuration:
 #
@@ -233,9 +235,8 @@ bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 # Tema de cores
 
 # class                 border  bground text    indicator child_border
-client.focused          #E0E0E0 #E0E0E0 #000000 #212121   #212121 
-client.focused_inactive #212121 #212121 #FFFFFF #212121   #212121 
-client.unfocused        #212121 #212121 #FFFFFF #212121   #212121 
+client.focused          #FFFFFF #FFFFFF #000000 #FFFFFF   #FFFFFF 
+client.unfocused        #000000 #000000 #FFFFFF #000000   #000000 
 
 # Screenshots
 # currently having a custom grimshot under .local/bin
@@ -245,6 +246,7 @@ bindsym Ctrl+Print exec grimshot --notify copy screen
 bindsym Shift+Print exec grimshot --notify save area
 bindsym Ctrl+Shift+Print exec grimshot --notify copy area
 
+bindsym $mod+End exec ~/.config/sway/powermenu.sh
 
 # Lock & Hibernate
 exec swayidle -w \
