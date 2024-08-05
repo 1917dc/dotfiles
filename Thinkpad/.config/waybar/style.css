@@ -1,12 +1,12 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: Arimo Nerd Font,GoMono Nerd Font,FiraMono Nerd Font, SF Mono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: GoMono Nerd Font, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 12px;
 }
 
 window#waybar {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #282828;
+    color: #ebdbb2;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -50,16 +50,16 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: #ebdbb2;
 }
 
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 
-#workspaces button.focused {
-    background-color: #FFFFFF;
-    color: #000000;
+#workspaces button.active {
+    background-color: #ebdbb2;
+    color: #282828;
 }
 
 #workspaces button.urgent {
@@ -211,7 +211,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: transparent;
 }
 
 #tray > .passive {
