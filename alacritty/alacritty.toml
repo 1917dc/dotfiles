@@ -1,0 +1,9 @@
+[font]
+normal = { family = "FiraCode NerdFont" }
+
+[colors.primary]
+background = '#000000'
+
+[window]
+opacity = 0.9
+padding = { x = 10, y = 10 }
